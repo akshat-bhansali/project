@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className='text-black'>
         LOGO
     </div>
-      <ul class="font-medium flex flex-row ml-auto text-slate-600 font-thin">
+      <ul class="font-medium flex-row ml-auto text-slate-600 font-thin md:flex hidden">
         <li>
           <a href="#" class="px-4" aria-current="page">Home</a>
         </li>

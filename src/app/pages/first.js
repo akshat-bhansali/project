@@ -7,6 +7,8 @@ import Functions1 from '../components/molecules/Functions1'
 import Banner2 from '../components/molecules/Banner2'
 import CompanyGrid from '../components/atoms/CompanyGrid'
 import Functions2 from '../components/molecules/Functions2'
+import Banner3 from '../components/molecules/Banner3'
+import Functions3 from '../components/molecules/Functions3'
 
 const first = () => {
   return (
@@ -17,6 +19,8 @@ const first = () => {
     <Dropdowns/>
     <Banner2/>
     <Functions2/>
+    <Banner3/>
+    <Functions3/>
     </span>
   )
 }

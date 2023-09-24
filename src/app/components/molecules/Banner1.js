@@ -11,7 +11,7 @@ const Banner1 = () => {
     //     height: "409px"
     //   }}
     // >
-      <div className="grid grid-cols-1 lg:grid-cols-2 bg-red-900 rounded-lg overflow-hidden h-[700px] lg:h-[409px] px-[30px]  lg:pl-[50px] ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 bg-red-900 rounded-lg overflow-hidden h-[700px] lg:h-[409px] px-[30px] lg:pl-[50px] text-white">
         <div className="flex flex-col mt-[80px] gap-10">
           <span className="font-bold text-2xl">
             Get the excellence of an IT certification without pouring in your

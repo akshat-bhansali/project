@@ -12,7 +12,7 @@ const first = () => {
   return (
     <div className='items-center grid gap-y-5 px-[60px] pb-5'>
     <Navbar/>
-    {/* <Banner1/> */}
+    <Banner1/>
     <Functions1/>
     <Dropdowns/>
     <Banner2/>

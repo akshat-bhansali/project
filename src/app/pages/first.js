@@ -10,14 +10,14 @@ import Functions2 from '../components/molecules/Functions2'
 
 const first = () => {
   return (
-    <div className='items-center grid gap-y-5 px-[60px] pb-5'>
+    <span className='items-center grid gap-y-5 px-[30px] lg:px-[60px] pb-5'>
     <Navbar/>
     <Banner1/>
     <Functions1/>
     <Dropdowns/>
     <Banner2/>
     <Functions2/>
-    </div>
+    </span>
   )
 }
 

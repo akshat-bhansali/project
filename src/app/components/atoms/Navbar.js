@@ -6,8 +6,8 @@ const Navbar = () => {
       
 <nav class="bg-white">
   <div class="flex flex-row items-center px-4 py-3">
-    <div className='text-black'>
-        LOGO
+    <div className='text-black font-bold'>
+        L O G O
     </div>
       <ul class="font-medium flex-row ml-auto text-slate-600 font-thin md:flex hidden">
         <li>

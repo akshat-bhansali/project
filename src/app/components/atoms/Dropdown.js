@@ -67,13 +67,12 @@ const Dropdown = (props) => {
           isOpen ? "block" : "hidden"
         }`}
       >
-        <ul className="py-2 text-sm text-black">
-          <li>
-            <a href="#" className="block px-4 py-2">
+          <div className="grid grid-cols-1 lg:grid-cols-3">
+            <span className="block px-4 py-2 text-sm text-black col-span-2">
              {props.content}
-            </a>
-          </li>
-        </ul>
+            </span>
+            <img src={props.icon} alt="" className="justify-self-center lg:justify-self-end"/>
+          </div>
       </div>
     </div>
   );

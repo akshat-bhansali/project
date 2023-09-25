@@ -9,6 +9,8 @@ import CompanyGrid from '../components/atoms/CompanyGrid'
 import Functions2 from '../components/molecules/Functions2'
 import Banner3 from '../components/molecules/Banner3'
 import Functions3 from '../components/molecules/Functions3'
+import Rules from '../components/molecules/Rules'
+import Banner4 from '../components/molecules/Banner4'
 
 const first = () => {
   return (
@@ -21,6 +23,9 @@ const first = () => {
     <Functions2/>
     <Banner3/>
     <Functions3/>
+    <Rules/>
+    <Banner4/>
+    <Navbar/>
     </span>
   )
 }

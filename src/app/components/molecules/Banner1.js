@@ -12,12 +12,12 @@ const Banner1 = () => {
     //   }}
     // >
       <div className="grid grid-cols-1 lg:grid-cols-2 bg-[url('/Clippathgroup.svg')] bg-no-repeat bg-cover rounded-lg overflow-hidden h-[700px] lg:h-[409px] px-[30px] lg:pl-[50px] text-white">
-        <div className="flex flex-col mt-[80px] gap-10">
-          <span className="font-bold text-2xl">
+        <div className="flex flex-col mt-[40px] lg:mt-[80px] gap-5 lg:gap-10">
+          <span className="font-bold text-2xl text-center lg:text-left">
             Get the excellence of an IT certification without pouring in your
             own time
           </span>
-          <span className="text-xs font-light">
+          <span className="text-xs font-light text-center lg:text-left">
             Use our team’s expertise & training to secure an IT certification to
             distinguishes you in your career —without you doing any preparation
             for it yourself
@@ -26,7 +26,7 @@ const Banner1 = () => {
           <Button title="FIND OUT THE TOTAL COST NOW" color="bg-yellow-400" textcolor="text-black"/>
           </span>
         </div>
-          <img src="/Man-Image.png" alt="" className="h-[700px] w-[700px] mt-[-80px] "/>
+          <img src="/Man-Image.png" alt="" className="h-[700px] w-[1000px] lg:w-[700px] mt-[-80px]"/>
       </div>
   );
 };

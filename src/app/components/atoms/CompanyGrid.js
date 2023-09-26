@@ -2,13 +2,13 @@ import React from 'react'
 
 const CompanyGrid = () => {
   return (
-    <div className='grid grid-cols-2 grid-rows-3 items-center justify-items-center gap-y-auto'>
-        <img src="/Amazon_Web_Services_Logo1.png" className='' />
-        <img src="/Cisco_logo1.png" className='' />
-        <img src="/Comptia-logo1.png" className='' />
-        <img src="/Слой_x0020_1.png" className='' />
-        <img src="/full-rgb.png" className='' />
-        <img src="/Microsoft_logo_(2012)1.png" className='' />
+    <div className='grid grid-cols-2 grid-rows-3 lg:items-center justify-items-center gap-auto'>
+        <img src="/Amazon_Web_Services_Logo1.png" className='h-[60%] w-auto' />
+        <img src="/Cisco_logo1.png" className='h-[60%] w-auto' />
+        <img src="/Comptia-logo1.png" className='h-[30%] md:h-[40%] w-auto' />
+        <img src="/Слой_x0020_1.png" className='h-[30%] md:h-[40%] w-auto' />
+        <img src="/full-rgb.png" className='h-[30%] md:h-[40%] w-auto' />
+        <img src="/Microsoft_logo_(2012)1.png" className='h-[30%] md:h-[40%] w-auto' />
     </div>
   )
 }

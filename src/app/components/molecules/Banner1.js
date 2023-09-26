@@ -1,4 +1,3 @@
-import { background } from "@chakra-ui/react";
 import { url } from "inspector";
 import React from "react";
 import Button from "../atoms/Button";

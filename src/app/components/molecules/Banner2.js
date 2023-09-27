@@ -4,7 +4,7 @@ import CompanyGrid from "../atoms/CompanyGrid";
 
 const Banner2 = () => {
   return (
-    <div className="bg-[#F5F5F5] border-[#CFCFCF] border-[1px] w-full h-[700px] lg:h-[398px] rounded-lg text-black grid grid-cols-1 lg:grid-cols-2 gap-x-3">
+    <div className="bg-[#F5F5F5] border-[#CFCFCF] border-[1px] w-full h-[700px] lg:h-[390px] rounded-lg text-black grid grid-cols-1 lg:grid-cols-2 gap-x-5">
       <div className="flex flex-col gap-8 my-auto p-4">
         <div className="font-bold text-xl text-center lg:text-left">
           Need the certification but don’t have the time?

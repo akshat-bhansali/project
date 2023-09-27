@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       
 <nav class="bg-white">
-  <div class="flex flex-row items-center px-4 py-5 items-center">
+  <div class="flex flex-row items-center px-4 py-5 items-center mt-5">
     <div className='text-black font-bold'>
         L O G O
     </div>

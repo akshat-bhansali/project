@@ -6,7 +6,7 @@ import {localeRichText, localeText} from "../../sanity-client";
 
 const Banner4 = (params:CtaSection&{lang:string}) => {
   return (
-    <div className="bg-[url('/Clippathgroup.svg')] bg-no-repeat bg-cover rounded-lg p-3 flex flex-col items-center my-5">
+    <div className="bg-[url('/Clippathgroup.svg')] bg-no-repeat bg-cover rounded-lg p-5 flex flex-col items-center my-10">
       <div className='text-white text-base flex flex-col lg:flex-row items-center text-center gap-y-3 mt-5'>
           <RichText value={localeRichText(params.title,params.lang)}/>
       </div>

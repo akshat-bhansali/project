@@ -32,7 +32,7 @@ function Dropdown(props:FaqSection['items'][number]&{lang:string}){
 
 const Dropdowns = (props:FaqSection&{lang:string}) => {
   return (
-    <div className="grid gap-3 my-5">
+    <div className="grid gap-3 my-10">
       <span className="font-bold text-2xl mx-auto text-black text-center mb-8">
         {localeText(props.title,props.lang)}
       </span>

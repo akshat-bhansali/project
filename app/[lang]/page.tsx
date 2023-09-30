@@ -14,6 +14,7 @@ import {groq} from "next-sanity";
 import {getSEO} from "../../config";
 import {Page} from "../../schema";
 import SectionMapper from "../../components/molecules/SectionMapper";
+import { useState, useEffect } from "react";
 
 export async function generateMetadata({params}:{params:{lang:string}}){
   const data:Page[] = await sanityClient.fetch(groq`*[_type=="page" && slug.current=="index"]`)

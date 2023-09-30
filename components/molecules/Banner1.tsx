@@ -6,7 +6,7 @@ import {localeText, urlFor} from "../../sanity-client";
 import Image from "next/image";
 const Banner1 = (props:HeroSection&{lang:string}) => {
   return (
-      <div className="grid grid-cols-1 lg:grid-cols-2 bg-[url('/Clippathgroup.svg')] bg-no-repeat bg-cover rounded-lg overflow-hidden h-[700px] lg:h-[409px] px-[30px] lg:pl-[50px] text-white">
+      <div className="grid grid-cols-1 lg:grid-cols-2 bg-[url('/Clippathgroup.svg')] bg-no-repeat bg-cover rounded-lg overflow-hidden h-fit lg:h-[409px] px-[30px] lg:pl-[50px] text-white">
         <div className="flex flex-col mt-[40px] lg:mt-[80px] gap-5 lg:gap-10">
           <span className="font-bold text-2xl text-center lg:text-left">
             {localeText(props.title, props.lang)}
@@ -18,7 +18,9 @@ const Banner1 = (props:HeroSection&{lang:string}) => {
           <Button title={localeText(props.cta?.title,props.lang)} link={props.cta?.url} color="bg-yellow-400" textcolor="text-black"/>
           </span>
         </div>
-          <Image src={urlFor(props.photo).url()} alt={localeText(props.photo.alt,props.lang)} width={700} height={700} className="h-[700px] w-[1000px] lg:w-[700px] mt-[-80px]"/>
+          <div className="justify-self-center align-self-end">
+          <Image src={urlFor(props.photo).url()} alt={localeText(props.photo.alt,props.lang)} width={500} height={500} className="mt-[50px]"/>
+          </div>
       </div>
   );
 };

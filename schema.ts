@@ -475,11 +475,11 @@ export type TabsSection = {
       subtitle?: LocaleString;
 
       /**
-       * Color — `string`
+       * Color — `locale_string`
        *
        *
        */
-      color?: string;
+      color?: LocaleString;
 
       /**
        * Points — `array`

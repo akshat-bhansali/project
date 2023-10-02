@@ -35,7 +35,7 @@ export const Tabs = defineType({
                         defineField({
                             name: 'color',
                             title: 'Color',
-                            type: 'string',
+                            type: 'locale_string',
                         }),
                         defineField({
                             name: 'points',

@@ -17,13 +17,13 @@ import SectionMapper from "../../components/molecules/SectionMapper";
 import { useState, useEffect } from "react";
 
 export async function generateMetadata({params}:{params:{lang:string}}){
-  const data:Page[] = await sanityClient.fetch(groq`*[_type=="page" && slug.current=="index"]`)
+  const data:Page[] = await sanityClient.fetch(groq`*[_type=="page" && slug.current=="proxy-exam-cbtproxy"]`)
   const page = data[0]
   return getSEO(localeText(page.title.meta,params.lang))
 }
 
 export default async function Home({params}:{params:{lang:string}}) {
-  const data:Page[] = await sanityClient.fetch(groq`*[_type=="page" && slug.current=="index"]`)
+  const data:Page[] = await sanityClient.fetch(groq`*[_type=="page" && slug.current=="proxy-exam-cbtproxy"]`)
   const page = data[0]
   return (
     <span className='max-w-screen-2xl mx-auto flex flex-col gap-5 px-4'>
